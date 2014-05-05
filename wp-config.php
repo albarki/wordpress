@@ -17,7 +17,7 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 // Custom Content Directory
 // ========================
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
-define( 'WP_CONTENT_URL', '%%WP_HOME%%/../content' );
+define( 'WP_CONTENT_URL', '%%WP_SITEURL%%/../content' );
 
 // ================================================
 // You almost certainly do not want to change these

@@ -4,3 +4,4 @@
 /db-backup
 /content/upgrade/
 .DS_Store
+*.pyc
